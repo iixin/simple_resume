@@ -1,0 +1,96 @@
+{
+    "header": {
+        "name": "XXX",
+        "email": "xxxxx@gmail.com",
+        "phone": "123-xxxx-xxxx",
+        "github": "github.com/xxxxx"
+    },
+    "education": [
+        {
+            "university_name": "XX大学",
+            "duration": "2024年 - 至今",
+            "degree": "研究生在读",
+            "major": "人工智能, 预计2025年3月毕业"
+        },
+        {
+            "university_name": "XX大学",
+            "duration": "2020年 - 2024年",
+            "degree": "学士",
+            "major": "软件工程"
+        }
+    ],
+    "experience": [
+        {
+            "item_name": "A公司",
+            "duration": "20XX年X月 - 20XX年X月",
+            "technology_stack": "Android客户端",
+            "type": "企业实习",
+            "description": "项目简介",
+            "contributions": [
+                "个人贡献1",
+                "个人贡献2",
+                "个人贡献3"
+            ]
+        },
+        {
+            "item_name": "B项目",
+            "duration": "20XX年X月 - 至今",
+            "technology_stack": "GoLang",
+            "type": "个人项目",
+            "description": "项目简介",
+            "contributions": [
+                "个人贡献1",
+                "个人贡献2",
+                "个人贡献3"
+            ]
+        },
+        {
+            "item_name": "其它经历",
+            "duration": "20XX年X月 - 至今",
+            "technology_stack": "",
+            "type": "",
+            "description": "",
+            "contributions": [
+                "个人贡献1",
+                "个人贡献2"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "category": "常用编程语言",
+            "details": [
+                "Python",
+                "C++",
+                "JavaScript"
+            ]
+        },
+        {
+            "category": "基础知识",
+            "details": [
+                "计算机网络",
+                "Linux"
+            ]
+        },
+        {
+            "category": "其它",
+            "details": [
+                "item1",
+                "item2"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "award_name": "X奖",
+            "time": "20XX年X月"
+        },
+        {
+            "award_name": "Y比赛 第一名",
+            "time": "20XX年"
+        }
+    ],
+    "other": [
+        {}
+    ]
+}

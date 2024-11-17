@@ -1,0 +1,162 @@
+body {
+  background: #50556b;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-weight: 200;
+  font-size: 12pt;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  list-style-type: disc;
+  margin-left: 2em;
+}
+
+.page[data-size="A4"] {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  padding: 0.7cm;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+}
+
+.header #name {
+  font-size: 24pt;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+
+.icon::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+.header #email::before {
+  background-image: url("./icon/email.svg");
+}
+
+.header #phone::before {
+  background-image: url("./icon/phone.svg");
+}
+
+.header #github::before {
+  background-image: url("./icon/github.svg");
+}
+
+.header .icon:not(:last-child)::after {
+  content: "|";
+  margin: 0 0.5em;
+  color: #ccc;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.header a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section {
+  margin-top: 0.2em;
+  margin-bottom: 0.3em;
+}
+
+.info-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.section h2 {
+  font-size: 18pt;
+  color: #333;
+  margin: 0.5em 0;
+}
+
+.section h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #333;
+  margin-bottom: 0.5em;
+}
+
+.section .item-name {
+  font-weight: bold;
+}
+
+#education .degree {
+  content: "";
+  margin-right: 2em;
+}
+
+#education .degree::after {
+  color: #000;
+  font-weight: 500;
+}
+
+#experience .technology-stack {
+  font-style: italic;
+}
+
+#experience .technology-stack::after {
+  content: "";
+  margin-right: 2em;
+}
+
+#experience .empty::after {
+  content: none;
+}
+
+#skills #skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#skills .category-block {
+  flex: 1 1 calc(33.333% - 40px);
+  min-width: 100px;
+  box-sizing: border-box;
+}
+
+#skills .category-block li {
+  list-style-type: disc;
+  margin-left: 1em;
+}
+
+#awards .item-name{
+  font-weight: normal;
+}
+
+@media print {
+  body,
+  .page[data-size="A4"] {
+    margin: 0;
+    box-shadow: none;
+  }
+}
