@@ -1,4 +1,4 @@
-fetch("example.json")
+fetch("resume.json")
   .then((response) => response.json())
   .then((data) => {
     // 网页标题
